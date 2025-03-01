@@ -1,0 +1,122 @@
+/* تحسين عام */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+h1 {
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    padding: 14px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.output {
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+    padding: 20px;
+    background: #e9f7ff;
+    border-radius: 10px;
+    border: 1px solid #007BFF;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0056b3;
+    width: 100%;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.fail {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* تحسين التصميم للأجهزة الصغيرة */
+@media (max-width: 600px) {
+    .container {
+        padding: 18px;
+        max-width: 100%;
+    }
+    
+    input {
+        padding: 10px;
+    }
+    
+    button {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
