@@ -1,14 +1,14 @@
-# Student Result Checker
+# Student Grade Management System
 
 ## Description
-This project is a simple PHP-based web application designed for students to enter their information and check whether they have passed or failed. It includes a database configuration file, a main page for input, and a stylesheet for styling.
+This project is a PHP-based web application designed for teachers to enter student grades and information, store them in a database, and allow students to check their grades online by entering their details.
 
 ## How It Works
-1. The student enters their details (e.g., student ID or name) in the form on `index.php`.
-2. The program connects to the database via `db.php` to fetch the student's grades.
-3. The system checks the retrieved grades against the passing criteria.
-4. If the student's grades meet the requirement, a "Pass" message is displayed; otherwise, a "Fail" message appears.
-5. The output is styled using `style.css` for a user-friendly experience.
+1. The teacher enters student information and grades through the web interface.
+2. The system saves the data in a MySQL database via `db.php`.
+3. Students can access the website and enter their details to retrieve their grades.
+4. The system verifies student details and fetches the corresponding grades.
+5. The result is displayed on the website, indicating whether the student has passed or failed.
 
 ## Folder Structure
 ```
@@ -32,16 +32,18 @@ This project is a simple PHP-based web application designed for students to ente
 4. Ensure `db.php` contains the correct database connection details.
 
 ## Usage
-- Open `index.php` in a browser.
-- Enter your student details.
-- View your pass/fail result.
-- Modify `style.css` for UI changes if needed.
+- Teachers can enter student details and grades.
+- Students can enter their information to check their grades.
+- The system retrieves and displays the results.
+- Modify `style.css` for UI customization if needed.
 
 ## Preview
-![Project Preview](path/to/your/image.png)
+![Project Preview]()
 
 ## Author
 - Your Name
 
 ## License
 This project is open-source and available under the MIT License.
+
+
