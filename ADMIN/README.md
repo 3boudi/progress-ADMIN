@@ -38,7 +38,7 @@ This project is a PHP-based web application designed for teachers to enter stude
 - Modify `style.css` for UI customization if needed.
 
 ## Preview
-![Project Preview]()
+![Project Preview](https://github.com/3boudi/progress-ADMIN/blob/main/ADMIN/assets/Screenshot%202025-03-01%20012540.png?raw=true)
 
 ## Author
 - Your Name
